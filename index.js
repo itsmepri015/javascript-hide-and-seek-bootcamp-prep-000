@@ -21,6 +21,7 @@ for (let i = 0; i < ranks.length; i++) {
 
 function deepestChild()
 {
-  var grandNode = document.querySelector('#grand-node');
+   var deep = document.getElementById('grand-node').querySelectorAll('div')
+   return deep[deep.length-1]
   
 }
