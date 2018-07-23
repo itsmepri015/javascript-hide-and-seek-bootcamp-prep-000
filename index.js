@@ -21,5 +21,6 @@ for (let i = 0; i < ranks.length; i++) {
 
 function deepestChild()
 {
+  var grandNode = document.querySelector('#grand-node');
   
 }
